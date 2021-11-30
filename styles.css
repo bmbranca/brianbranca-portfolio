@@ -10,7 +10,7 @@
   --header: #003312;
   --header-buttons: #fff;
   --background: #e3f8e6;
-  --card-color: #660300;
+  --card-color: #3d0200;
   --buttons: #003312;
   --card-buttons-bg: whitesmoke;
   --card-transition-color: #464660;
@@ -46,7 +46,8 @@ body {
 .header-container {
   padding: 20px 100px;
   background-color: var(--header);
-  min-height: 120px;
+  background: linear-gradient(90deg, var(--header) 1.18%, #005a23 100%);
+  min-height: 150px;
   margin-bottom: 40px;
 }
 
@@ -89,11 +90,12 @@ nav a i:hover {
 /* Card */
 
 .card {
-  background-color: var(--card-color);
+  /* background-color: var(--card-color); */
+  background: linear-gradient(90deg, var(--card-color) 1.18%, #660000 100%);
   color: var(--card-text);
-  width: 31%;
-  margin: 30px 10px;
-  padding-bottom: 20px;
+  width: 28%;
+  margin: 50px 0px;
+  padding-bottom: 10px;
   border-radius: 15px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   text-align: center;
@@ -102,12 +104,15 @@ nav a i:hover {
 .card h2 {
   font-size: 3rem;
   font-weight: 400;
+  margin-top: 5px;
   margin-bottom: 0;
 }
 
 .card p {
   font-size: 1.5rem;
   font-weight: 100;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .card-img {
@@ -131,7 +136,7 @@ nav a i:hover {
 }
 
 .card-4 {
-  background-image: url("images/convo-shuffle.JPG");
+  background-image: url("images/bored-bot.JPG");
 }
 
 .card-5 {
@@ -168,7 +173,7 @@ nav a i:hover {
 .card a {
   background-color: var(--card-buttons-bg);
   color: var(--buttons);
-  padding: 10px 20px;
+  padding: 2px 4px;
   border-radius: 15px;
   margin-bottom: 10px;
   text-decoration: none;
@@ -180,7 +185,7 @@ nav a i:hover {
 }
 
 .card a i {
-  font-size: 3rem;
+  font-size: 2.5rem;
   margin: 10px;
 }
 
@@ -197,7 +202,8 @@ nav a i:hover {
 
 .footer-container {
   background-color: var(--header);
-  min-height: 100px;
+  min-height: 50px;
+  margin-top: 50px;
 }
 
 footer {
