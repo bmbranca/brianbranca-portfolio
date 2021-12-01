@@ -1,17 +1,11 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Karla:wght@200:400&display=swap"); */
-
-/* @import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;400&display=swap"); */
-
-/* @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap"); */
-
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500;600;700&display=swap");
 
 :root {
-  --header: #003312;
+  --header: #1a1a1a;
   --header-buttons: #fff;
-  --background: #e3f8e6;
-  --card-color: #3d0200;
-  --buttons: #003312;
+  --background: #e4f8fd;
+  --card-color: #1a1a1a;
+  --buttons: #61dafb;
   --card-buttons-bg: whitesmoke;
   --card-transition-color: #464660;
   --button-hover-color: #74c69d;
@@ -46,7 +40,6 @@ body {
 .header-container {
   padding: 20px 100px;
   background-color: var(--header);
-  background: linear-gradient(90deg, var(--header) 1.18%, #005a23 100%);
   min-height: 150px;
   margin-bottom: 40px;
 }
@@ -65,6 +58,7 @@ header .name {
   margin-bottom: 0;
   letter-spacing: 3px;
   font-weight: 400;
+  color: #61dafb;
 }
 
 header .title {
@@ -91,7 +85,7 @@ nav a i:hover {
 
 .card {
   /* background-color: var(--card-color); */
-  background: linear-gradient(90deg, var(--card-color) 1.18%, #660000 100%);
+  background: var(--card-color);
   color: var(--card-text);
   width: 28%;
   margin: 50px 0px;
@@ -102,10 +96,11 @@ nav a i:hover {
 }
 
 .card h2 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 400;
   margin-top: 5px;
   margin-bottom: 0;
+  color: rgb(238, 204, 141);
 }
 
 .card p {
@@ -124,39 +119,39 @@ nav a i:hover {
 }
 
 .card-1 {
-  background-image: url("images/exchange.JPG");
+  background-image: url("images/movie-search.JPG");
 }
 
 .card-2 {
-  background-image: url("images/exchange.JPG");
+  background-image: url("images/meme-generator.JPG");
 }
 
 .card-3 {
-  background-image: url("images/expensetracker.JPG");
+  background-image: url("images/react-facts.JPG");
 }
 
 .card-4 {
-  background-image: url("images/bored-bot.JPG");
+  background-image: url("images/momentumclone.JPG");
 }
 
 .card-5 {
-  background-image: url("images/bored-bot.JPG");
-}
-
-.card-6 {
-  background-image: url("images/kerry-maher.JPG");
-}
-
-.card-7 {
   background-image: url("images/war.JPG");
 }
 
-.card-8 {
+.card-6 {
+  background-image: url("images/bored-bot.JPG");
+}
+
+.card-7 {
   background-image: url("images/exchange.JPG");
 }
 
+.card-8 {
+  background-image: url("images/kerry-maher.JPG");
+}
+
 .card-9 {
-  background-image: url("images/expensetracker.JPG");
+  background-image: url("images/digital-biz-card.JPG");
 }
 
 .card p {
