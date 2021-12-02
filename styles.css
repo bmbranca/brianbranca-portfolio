@@ -111,11 +111,11 @@ nav a i:hover {
 }
 
 .card-img {
-  /* width: 100%; */
   min-height: 500px;
   margin-bottom: 15px;
   background-size: cover;
-  background-position: center;
+  background-repeat: no-repeat;
+  /* background-position: center; */
   border-radius: 15px 15px 0 0;
 }
 
