@@ -252,10 +252,12 @@ footer {
   nav a i {
     font-size: 2rem;
   }
+}
 
-  /* .hide-tablet {
-    display: none;
-  } */
+@media (max-width: 590px) {
+  header .name {
+    line-height: 45px;
+  }
 }
 
 /* mobile view */
