@@ -40,13 +40,13 @@ body {
 .header-container {
   padding: 20px 100px;
   background-color: var(--header);
-  min-height: 150px;
+  min-height: 75px;
   margin-bottom: 40px;
 }
 
 header {
   /* background-color: blueviolet; */
-  min-height: 100px;
+  min-height: 75px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -54,7 +54,7 @@ header {
 }
 
 header .name {
-  font-size: 4rem;
+  font-size: 3rem;
   margin-bottom: 0;
   letter-spacing: 3px;
   font-weight: 400;
@@ -62,7 +62,7 @@ header .name {
 }
 
 header .title {
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin-top: 0;
   font-weight: 100;
 }
@@ -73,7 +73,7 @@ nav a {
 }
 
 nav a i {
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 nav a i:hover {
@@ -87,27 +87,29 @@ nav a i:hover {
   /* background-color: var(--card-color); */
   background: var(--card-color);
   color: var(--card-text);
-  width: 28%;
-  margin: 50px 0px;
-  padding-bottom: 10px;
+  width: 31%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding-bottom: 5px;
   border-radius: 15px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   text-align: center;
 }
 
 .card h2 {
-  font-size: 2.5rem;
+  font-size: 1.75rem;
   font-weight: 400;
-  margin-top: 5px;
-  margin-bottom: 0;
+  margin-top: -5px;
+  margin-bottom: -13px;
   color: rgb(238, 204, 141);
+  text-transform: uppercase;
 }
 
 .card p {
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 100;
-  margin-top: 0;
-  margin-bottom: 0;
+  margin-top: -5px;
+  margin-bottom: 5px;
 }
 
 .card-img {
@@ -115,12 +117,12 @@ nav a i:hover {
   margin-bottom: 15px;
   background-size: cover;
   background-repeat: no-repeat;
-  /* background-position: center; */
+  background-position: center;
   border-radius: 15px 15px 0 0;
 }
 
 .card-1 {
-  background-image: url("images/movie-search.JPG");
+  background-image: url("images/movie-search.jpg");
 }
 
 .card-2 {
@@ -169,7 +171,6 @@ nav a i:hover {
 .card a {
   background-color: var(--card-buttons-bg);
   color: var(--buttons);
-  padding: 2px 4px;
   border-radius: 15px;
   margin-bottom: 10px;
   text-decoration: none;
@@ -182,7 +183,8 @@ nav a i:hover {
 
 .card a i {
   font-size: 2.5rem;
-  margin: 10px;
+  margin: 5px;
+  padding: 2px 4px;
 }
 
 /* .card:hover {
@@ -205,7 +207,7 @@ nav a i:hover {
 footer {
   max-width: 1024px;
   /* background-color: blueviolet; */
-  min-height: 100px;
+  min-height: 50px;
   margin: 0;
   position: fixed;
 }
