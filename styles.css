@@ -111,7 +111,8 @@ nav a i:hover {
 }
 
 .card-img {
-  height: 550px;
+  /* width: 100%; */
+  min-height: 600px;
   margin-bottom: 15px;
   background-size: cover;
   background-position: center;
